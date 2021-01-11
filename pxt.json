@@ -1,0 +1,23 @@
+{
+    "name": "romte controul",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "mbit": "github:yahboomtechnology/yahboom-mbit-en#9f6b784206b88f3b52420172813e0c18542af65d",
+        "Mbit_IR": "github:yahboomtechnology/yahboom-mbit-ir#6ee63548ee0f3213a4a4e09f10aa79d1cb01e7af"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
